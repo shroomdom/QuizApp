@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/quiz_questions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginAll"
+                android:text="@string/questionOne"
+                android:textAllCaps="true" />
+
+            <EditText
+                android:id="@+id/q1_answer_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:hint="@string/q1AnswerInput"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginAll"
+                android:text="@string/questionTwo"
+                android:textAllCaps="true" />
+
+            <RadioGroup
+                android:id="@+id/q2_radio_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/mr_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marginLeft"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:text="@string/q2AnswerOpt1"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/mrs_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marginLeft"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:text="@string/q2AnswerOpt2"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/baby_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marginLeft"
+                    android:paddingLeft="@dimen/paddingLeft"
+                    android:text="@string/q2AnswerOpt3"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginAll"
+                android:text="@string/questionThree"
+                android:textAllCaps="true" />
+
+            <EditText
+                android:id="@+id/q3_answer_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:hint="@string/q3AnswerInput"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginAll"
+                android:text="@string/questionFour"
+                android:textAllCaps="true" />
+
+            <CheckBox
+                android:id="@+id/one_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:text="@string/q4CkboxOne"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/two_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:text="@string/q4CkboxTwo"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/eightynine_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:text="@string/q4CkboxEightynine"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/ninetyseven_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:paddingLeft="@dimen/paddingLeft"
+                android:text="@string/q4CkboxNinetyseven"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginAll"
+                android:text="@string/questionFive"
+                android:textAllCaps="true" />
+
+            <EditText
+                android:id="@+id/q5_answer_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginRight="@dimen/marginRight"
+                android:hint="@string/q5AnswerInput"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/answer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/quiz_questions"
+            android:text="Submit Answers" />
+
+        <TextView
+            android:id="@+id/answer_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/results_summary_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

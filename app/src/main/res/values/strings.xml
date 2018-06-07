@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="questionOne"><b>Question 1:</b> \nYou are driving a bus. When you begin your route, there is an old woman named Mrs. Smith and a young boy named Raymond are on the bus. At the first stop, the old woman leaves, and a salesman, named Ed, enters. At the next stop, Jack and his sister Jill get on, as well as three women with shopping bags. The bus travels fifteen minutes, then stops and Raymond gets off and a man and his wife get on. Next, a woman with a bird in a cage gets on the bus. What is the name of the bus driver?</string>
+    <string name="questionTwo"><b>Question 2:</b> \nWho is bigger, Mr. Bigger, Mrs. Bigger, or their baby?</string>
+    <string name="q1AnswerInput">Type your answer</string>
+    <string name="q2AnswerOpt1">Mr. Bigger</string>
+    <string name="q2AnswerOpt2">Mrs. Bigger</string>
+    <string name="q2AnswerOpt3">Their baby</string>
+    <string name="questionThree"><b>Question 3:</b> \nWhat is next in this sequence of numbers: 1, 11, 21, 1211, 111221, 312211, ______?</string>
+    <string name="q3AnswerInput">Type your answer</string>
+    <string name="questionFour"><b>Question 4:</b> \nThis is to check if you\'re still paying attention. Select all the prime numbers.</string>
+    <string name="q4CkboxOne">1</string>
+    <string name="q4CkboxTwo">2</string>
+    <string name="q4CkboxEightynine">89</string>
+    <string name="q4CkboxNinetyseven">97</string>
+    <string name="questionFive"><b>Question 5:</b> \nWhat kind of room has no doors or windows?</string>
+    <string name="q5AnswerInput">Type your answer</string>
+</resources>
